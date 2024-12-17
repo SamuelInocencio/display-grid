@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+}
+
+.one {
+    background: #333453;
+}
+
+.two {
+    background: #259b11;
+}
+
+
+.three {
+    background: #800534;
+}
+
+
+.four {
+    background: #0c8f9b;
+}
+
+
+.five {
+    background: #ff0a0a;
+}
+
+
+.six {
+    background: #5A5A5A;
+}
+
+
+.seven {
+    background: #1D18DF;
+}
+
+
+.eight {
+    background: #C54D91;
+}
+
+
+.nine {
+    background: #A7E641;
+}
